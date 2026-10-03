@@ -1,0 +1,41 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+*.pem
+*.key
+KEYS.txt
+browser-state.json
+# Runtime data and reports
+*.db
+*.db-*
+*.sqlite*
+*.log
+audit-*/
+scan-*/
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+.build/
+bin/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.godot/
+export/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.dSYM/
+.DS_Store
+
+# Local scanner output
+*-output.json
+syft-sbom.json
